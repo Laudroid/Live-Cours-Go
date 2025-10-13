@@ -10,8 +10,6 @@
 - Explorer les perspectives avancées de Go comme la concurrence et les microservices.
 ## Séance 1 : Introduction au Go & bases du langage
 
-**Durée :** undefined
-
 ### Objectifs pédagogiques
 
 - Comprendre l'origine et les caractéristiques du langage Go.
@@ -28,8 +26,6 @@
 - Structures de contrôle (if, for, switch).
 - Entrée et sortie simples (print, scan).
 ## Séance 2 : Collections, fonctions et erreurs
-
-**Durée :** undefined
 
 ### Objectifs pédagogiques
 
@@ -54,8 +50,6 @@
 - Erreur personnalisée.
 ## Séance 3 : Structures, pointeurs et organisation du code
 
-**Durée :** undefined
-
 ### Objectifs pédagogiques
 
 - Comprendre les structures et leur usage.
@@ -77,8 +71,6 @@
 - Structure d’un projet Go.
 ## Séance 4 : Go et le Web : Consommation d’API
 
-**Durée :** undefined
-
 ### Objectifs pédagogiques
 
 - Apprendre à faire des requêtes HTTP en Go.
@@ -94,8 +86,6 @@
 - Marshalling et Unmarshalling JSON.
 ## Séance 5 : Développement d’API REST avec Go
 
-**Durée :** undefined
-
 ### Objectifs pédagogiques
 
 - Créer une API REST simple avec Go.
@@ -110,8 +100,6 @@
 - Définir des routes et handlers.
 - Gérer les méthodes HTTP : GET, POST, PUT, DELETE.
 ## Séance 6 : Découvrir les perspectives de Go (concurrence, microservices)
-
-**Durée :** undefined
 
 ### Objectifs pédagogiques
 

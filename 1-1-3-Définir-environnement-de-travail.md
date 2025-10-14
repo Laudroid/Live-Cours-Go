@@ -61,7 +61,7 @@ Le débogueur standard pour Go est **Delve**.
    ```bash
    mkdir hello-go
    cd hello-go
-   go mod init exemple.com/hello
+   go mod init hello
    ```
 
    Cela crée un fichier `go.mod`.

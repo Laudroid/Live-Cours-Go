@@ -86,30 +86,6 @@ Le débogueur standard pour Go est **Delve**.
 
 ---
 
-## 🧪 Étape 5 – Tests unitaires
-
-Go intègre directement un framework de test :
-
-```go
-package main
-
-import "testing"
-
-func TestAddition(t *testing.T) {
-    if 2+2 != 4 {
-        t.Errorf("Attendu 4, obtenu %d", 2+2)
-    }
-}
-```
-
-Exécute :
-
-```bash
-go test ./...
-```
-
----
-
 ## 🛠️ Étape 6 – Outils utiles
 
 * `go fmt` → formatte ton code.
@@ -124,6 +100,5 @@ go test ./...
 * **Compilateur** → fourni avec Go (`go build`, `go run`).
 * **IDE** → VS Code + extension Go (ou GoLand si tu veux du full IDE).
 * **Debugger** → Delve (intégré avec VS Code).
-* **Tests** → inclus (`go test`).
 
 ---

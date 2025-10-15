@@ -50,22 +50,6 @@ func SumInts(nums []int) (int, error) {
 func main() {
 	numbers := []int{10, 15, 17}
 	sum, err := SumInts(numbers)
-	if err != nil {
-		fmt.Println("Erreur:", err)
-	} else {
-		fmt.Println("Somme:", sum)
-	}
-
-	empty := []int{}
-	sum, err = SumInts(empty)
-	if err != nil {
-		fmt.Println("Erreur:", err)
-	} else {
-		fmt.Println("Somme:", sum)
-	}
+	// TODO
 }
 ```
-
---- 
-
-En cas de blocage, montre ton code et le message d’erreur reçu avant de demander de l’aide à l’IA ou à un pair. Bonne pratique : teste souvent et ajoute des `fmt.Println` pour comprendre le déroulement.

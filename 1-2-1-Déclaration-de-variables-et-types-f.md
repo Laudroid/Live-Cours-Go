@@ -78,6 +78,15 @@ var rate float32 = 0.07
 
 ---
 
+En Go, float32 et float64 suivent la norme IEEE-754. Il faut distinguer la valeur maximale de la précision.
+
+| Type      |  Taille |                Valeur max. ≈ | Valeur min. positive normale ≈ |
+| --------- | ------: | ---------------------------: | -----------------------------: |
+| `float32` | 32 bits |           `3.4028235 × 10³⁸` |           `1.17549435 × 10⁻³⁸` |
+| `float64` | 64 bits | `1.7976931348623157 × 10³⁰⁸` |  `2.2250738585072014 × 10⁻³⁰⁸` |
+
+---
+
 ### c) Type chaîne de caractères (`string`)
 
 - Les chaînes en Go sont immuables.
